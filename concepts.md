@@ -63,4 +63,8 @@ HTTP
     - 5xx - server side error
   - cookie - stored in (browsers
   - 3rd party cookies (For example, you can have a "Like" button on your website which will store a cookie on a visitor's computer, that cookie can later be accessed by Facebook to identify visitors and see which websites they visited. Such a cookie is considered to be a 3rd party cookie.)
+
+Throughput vs Bandwidth:
+  - Consider bandwidth as a pipe and throughput as water. The larger the pipe or bandwidth is, the more water or data can flow through it at one time.
+  - Bandwidth provides you with a theoretical measure of the maximum number of packets that can be transferred and throughput tells you the number of packets that are actually being successfully transferred
   
