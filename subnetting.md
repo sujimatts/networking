@@ -15,3 +15,21 @@ Then the IP addresses and subnet masks will be:
 IP: 10.10.10.0-127   MASK: 255.255.255.128    : Sales
 IP: 10.10.10.128-159 MASK: 255.255.255.224    : Beancounters
 In each address range 2 addresses will not be used for users: 1st one because it is a network number and the last, because it is a broadcast address.
+
+## Sunny classroom (Youtube channel)
+Subnet - logical subdivision of an IP network
+Subnetting - process of dividing a n/w into two or more n/ws
+
+```Use NetworkID 192.168.4.0/24 and create 3 subnets```
+![image](https://user-images.githubusercontent.com/40743779/189915430-bf7576ed-0f74-4220-bddf-ef5cf11710b1.png)
+
+choose suitable subnets accoring to the requirement (3 subnets)
+![image](https://user-images.githubusercontent.com/40743779/189915683-e48536e9-9abf-44ee-af18-7cf1807215ad.png)
+
+So the solution becomes 4 subnets, 64 hosts and subnetmask is /26
+
+First host of every subnet is reserved for network ID and last hostID is reserved for broadcase
+![image](https://user-images.githubusercontent.com/40743779/189916135-8f071f1a-6672-4d33-88cf-04828512ea02.png)
+
+watch: https://www.youtube.com/watch?v=ecCuyq-Wprc 
+
