@@ -5,6 +5,7 @@ SSH servers can authenticate clients using two methods.
 And the two popular ways are:
 
 ```Password-based``` - Password-based authentication is the default method used for authentication for OpenSSH installed clients. It is the most basic ssh authentication but not the most secure one.
+
 ```Key-based``` - Key-based authentication improves the system security even further by generating SSH key pairs, which proves to be a reliable and secure alternative.
 
 ## Types of Encryption
